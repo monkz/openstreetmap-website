@@ -42,7 +42,7 @@ GEM
     coffee-script (2.2.0)
       coffee-script-source
       execjs
-    coffee-script-source (1.6.1)
+    coffee-script-source (1.6.2)
     composite_primary_keys (5.0.12)
       activerecord (~> 3.2.0, >= 3.2.9)
     deadlock_retry (1.2.0)
@@ -61,7 +61,7 @@ GEM
     i18n (0.6.1)
     i18n-js (3.0.0.rc5)
       i18n
-    iconv (1.0.2)
+    iconv (0.1)
     journey (1.0.4)
     jquery-rails (2.2.1)
       railties (>= 3.0, < 5.0)
@@ -77,11 +77,11 @@ GEM
       treetop (~> 1.4.8)
     memcached (1.5.0)
     mime-types (1.21)
-    minitest (4.6.2)
+    minitest (4.7.0)
     multi_json (1.7.1)
     multi_xml (0.5.3)
     multipart-post (1.2.0)
-    nokogiri (1.5.6)
+    nokogiri (1.5.8)
     oauth (0.4.7)
     oauth-plugin (0.4.1)
       multi_json
@@ -125,7 +125,7 @@ GEM
       activesupport (= 3.2.13)
       bundler (~> 1.0)
       railties (= 3.2.13)
-    rails-i18n (0.7.2)
+    rails-i18n (0.7.3)
       i18n (~> 0.5)
     railties (3.2.13)
       actionpack (= 3.2.13)
@@ -181,7 +181,7 @@ DEPENDENCIES
   http_accept_language (>= 1.0.2)
   httpclient
   i18n-js (>= 3.0.0.rc2)
-  iconv
+  iconv (= 0.1)
   jquery-rails
   libxml-ruby (>= 2.0.5)
   memcached (>= 1.4.1)
